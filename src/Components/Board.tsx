@@ -44,7 +44,7 @@ const Board:React.FC = () => {
 
   return (  
    
-    <div className=''>   
+    <div className='p-10'>   
         <div className='flex'>
             <Block onClick={()=>handleBlockClick(0)} value={state[0]}/>
             <Block onClick={()=>handleBlockClick(1)} value={state[1]}/>
